@@ -1,0 +1,13 @@
+%% -*- mode: erlang -*-
+{application, geohasherl,
+ [
+  {description, "Naive Erlang implementation of the https://en.wikipedia.org/wiki/Geohash"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]}
+ ]
+}.
